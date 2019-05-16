@@ -1,0 +1,6 @@
+
+⦁	It should store todos array on object
+⦁	It should have displayTodo method
+⦁	An addTodo method
+⦁	chnageTodo method
+⦁	deleteTodo method
