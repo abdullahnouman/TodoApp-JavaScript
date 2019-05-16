@@ -1,0 +1,3 @@
+⦁	TodoList.addTodo Should add objects
+⦁	todolist.changeTodo should chnage todoText property
+⦁	TodoList.togggle completed should chnage complete property.
