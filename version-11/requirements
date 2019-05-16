@@ -1,0 +1,2 @@
+todoList.toggleAll should use forEach
+view.displayTodo should use for Each
