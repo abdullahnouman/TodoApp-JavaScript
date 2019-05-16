@@ -1,0 +1,3 @@
+⦁	There should be a "Display Todos" button and  a "toggle all" button.
+⦁	Clicking "Dsiplay Todos" should run todoList.displayTodos method.
+⦁	Clicking ToggleAll should run todoList.toggleAll method.
