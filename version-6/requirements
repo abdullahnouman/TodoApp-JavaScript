@@ -1,0 +1,2 @@
+⦁	ToggleAll method must toggle everthing to false if every todo's completed property is true.
+⦁	Otherwise make every todo's completed property false.
