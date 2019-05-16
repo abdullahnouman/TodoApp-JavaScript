@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Todo App</title>
+	<!--link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+		<h1>Todo List</h1>
+		<!--button class="btn" id="displayTodosButton">Display Todos</button>
+		<button class="btn" id="toggleAllButton">Toggle All</button-->
+			<div>
+			<button class="btn" onclick="handlers.toggleAll()">Toggle All</button>
+		</div>
+    <div class="input-field inline">
+     	<button class="btn" onclick="handlers.addTodo()">Add</button>
+		<input type="text" id="addTodoInput" placeholder="Enter todos text">
+    </div>
+ 	<div class="input-field inline">
+     	<button class="btn" onclick="handlers.changeTodo()">Change Todo</button>
+		<input  type="number" id="todoPosition" placeholder="Change Todo Position">
+		<input type="text" id="changeTodoText" placeholder="Enter new text for todo">
+    </div>
+    <div class="input-field inline">
+     	<button class="btn" onclick="handlers.deleteTodo()">Delete</button>
+		<input type="number" id="deletePosition" placeholder="Delete todo position">
+    </div>
+    <div class="input-field inline">
+     	<button class="btn" onclick="handlers.toggleTodo()">Toggle</button>
+		<input type="number" id="toggleTodoPosition" placeholder="Toggle Completed todo position">
+    </div>
+    <ul>
+    	
+    </ul>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
